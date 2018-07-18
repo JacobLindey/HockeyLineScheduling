@@ -1,5 +1,3 @@
-import math
-
 
 class Line:
 
