@@ -3,6 +3,8 @@ from node import Node
 
 class Tree:
 
+    # TODO: re-implement Tree using traditional pointers to reduce memory strain
+
     def __init__(self, degree):
         self.nodes = [Node(node_id=0, data=None)]   # list of nodes
         self.degree = degree    # int, number of children per node
